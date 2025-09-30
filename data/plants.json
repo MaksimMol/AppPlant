@@ -1,0 +1,37 @@
+[ {
+  "name" : "фикус",
+  "type" : "декоративно-лиственные",
+  "lastWatered" : [ 2025, 10, 8 ],
+  "nextWatering" : [ 2025, 10, 18 ],
+  "growthRate" : 1.0,
+  "symptoms" : [ "Признаков заболеваний не выявлено" ],
+  "status" : "Активно",
+  "wateringHistory" : [ [ 2025, 9, 28 ] ]
+}, {
+  "name" : "клюква",
+  "type" : "плодовые",
+  "lastWatered" : [ 2025, 9, 29 ],
+  "nextWatering" : [ 2025, 10, 20 ],
+  "growthRate" : 1.0,
+  "symptoms" : [ "Признаков заболеваний не выявлено" ],
+  "status" : "Активно",
+  "wateringHistory" : [ ]
+}, {
+  "name" : "петрушка",
+  "type" : "пряные",
+  "lastWatered" : [ 2025, 9, 29 ],
+  "nextWatering" : [ 2025, 10, 2 ],
+  "growthRate" : 1.0,
+  "symptoms" : [ "Признаков заболеваний не выявлено" ],
+  "status" : "Активно",
+  "wateringHistory" : [ ]
+}, {
+  "name" : "яблоня",
+  "type" : "плодовые",
+  "lastWatered" : [ 2025, 11, 30 ],
+  "nextWatering" : [ 2025, 12, 21 ],
+  "growthRate" : 1.0,
+  "symptoms" : [ "Признаков заболеваний не выявлено" ],
+  "status" : "Активно",
+  "wateringHistory" : [ [ 2025, 9, 29 ], [ 2025, 10, 9 ], [ 2025, 10, 19 ], [ 2025, 11, 9 ] ]
+} ]

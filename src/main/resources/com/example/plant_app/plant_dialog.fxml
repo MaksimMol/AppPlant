@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<GridPane xmlns="http://javafx.com/javafx/17.0.1"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.plant_app.controller.PlantDialogs"
+          hgap="10" vgap="10" padding="10">
+
+    <Label text="Название:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="nameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="Тип:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="typeField" GridPane.rowIndex="1" GridPane.columnIndex="1" editable="false"/>
+
+    <Label text="Последний полив:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <DatePicker fx:id="lastWateredField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Label text="Скорость роста:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="growthRateField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <Label text="Симптомы (через запятую):" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="symptomsField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+    <Label fx:id="symptomsHint" text="Подсказка: допустимые симптомы: желтые листья, коричневые кончики, сухие листья, вялые листья..."
+           style="-fx-font-size: 11px; -fx-text-fill: gray;" wrapText="true"
+           GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    <Label text="Статус:" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+    <ComboBox fx:id="statusBox" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+    <HBox spacing="10" alignment="CENTER" GridPane.rowIndex="7" GridPane.columnIndex="1">
+        <Button fx:id="okButton" text="OK"/>
+        <Button fx:id="cancelButton" text="Отмена"/>
+    </HBox>
+
+</GridPane>
